@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  color: gold;
+  background-color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+h1{
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  padding: 200px;
+}
+
+.start{
+  width: 300px;
+  height: 70px;
+  border: solid 3px darkblue;
+  background-color: blue;
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  border-radius: 50px;
+}
+
+.start:hover{
+  width: 300px;
+  height: 70px;
+  border: solid 3px darkblue;
+  background-color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  border-radius: 50px;
+  color: lightblue;
+}
+
+*{
+  outline: none;
+}
