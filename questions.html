@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title id="tit">KBC | QUESTIONS</title>
+    <link href="style_ques.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="bod">
+    <script src="script.js"></script>
+    <div class="container" id="ques">
+      <audio autoplay>
+              <source src="question.mp3" type = "audio/mpeg">
+      </audio>
+      <h3 id="time"></h3>
+      <h2 class="question"  id="q"></h2>
+      <ul class="list">
+        <li><button class="answer" id="a" value="a" onclick="check(a)"></button></li>
+        <li><button class="answer" id="b" value="b" onclick="check(b)"></button></li>
+      </ul>
+      <ul class="list2">
+        <li><button class="answer" id="c" value="c" onclick="check(c)"></button></li>
+        <li><button class="answer" id="d" value="d" onclick="check(d)"></button></li>
+      </ul>
+      <input type="button" class="answer" onclick="display()" value="Display!" id="dis">
+    </div>
+   <div class="container" id="thanks">
+      <h1>THANKS FOR PLAYING!</h1>
+      <h2 id="noAtm"></h2>
+      <h2 id="atm" ></h2>
+      <h2 id="cor"></h2>
+      <h2 id="wor"></h2>
+    </div>
+  </body>
+</html>
